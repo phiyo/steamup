@@ -1,0 +1,13 @@
+@tailwind base;
+
+a {
+  @apply text-primary-black;
+}
+a:hover {
+  @apply text-primary-red;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
