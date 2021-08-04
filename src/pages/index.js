@@ -32,7 +32,7 @@ const Index = () => (
     <section id="top" className="py-20 bg-feature-img bg-cover bg-no-repeat bg-center text-white">
       <div className="container mx-auto px-8 sm:flex">
         <div className="m-auto w-1/2 sm:pr-10 md:pr-16">
-          <img className="hidden" src={OGImage} alt="Steam Up: A Feast of Dim Sum" />
+          <img className="hidden" src={OGImage} alt="Steam Up - Kickstarter Oct 19, 2021" />
           <img src={FeatureImage} alt="Steam Up: A Feast of Dim Sum" />
         </div>
         <div className="text-center sm:text-left sm:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-8 lg:pt-20">
