@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet"
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import OverviewIcons from '../assets/images/overview-icons.png';
@@ -17,6 +18,16 @@ import SubscribeBox from '../components/Subscribe.js';
 
 const Index = () => (
   <Layout>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Steam Up: A Feast of Dim Sum</title>
+      <meta name="description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
+      <meta property="og:url" content="https://hotbananagame.com" />
+      <meta property="og:title" content="Steam Up: A Feast of Dim Sum - Kickstarter October 19th, 2021" />
+      <meta property="og:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
+      <meta name="twitter:title" content="Steam Up: A Feast of Dim Sum - Kickstarter October 19th, 2021 " />
+      <meta name="twitter:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
+    </Helmet>
     <section id="top" className="py-20 bg-feature-img bg-cover bg-no-repeat bg-center text-white">
       <div className="container mx-auto px-8 sm:flex">
         <div className="m-auto w-1/2 sm:pr-10 md:pr-16">
