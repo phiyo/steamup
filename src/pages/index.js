@@ -30,15 +30,18 @@ const Index = () => (
       <meta name="twitter:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
     </Helmet>
     <section id="top" className="py-20 bg-feature-img bg-cover bg-no-repeat bg-center text-white">
-      <div className="container mx-auto px-8 sm:flex">
-        <div className="m-auto w-1/2 sm:pr-10 md:pr-16">
+      <div className="container mx-auto px-8 md:flex">
+        <div className="m-auto w-full sm:w-5/6 md:w-1/2 pl-10 sm:pl-0 md:pr-5">
           <img className="hidden" src={OGImage} alt="Steam Up - Kickstarter Oct 19, 2021" />
           <img src={FeatureImage} alt="Steam Up: A Feast of Dim Sum" />
         </div>
-        <div className="text-center sm:text-left sm:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-8 lg:pt-20">
-          <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold leading-none xl:mr-40">
+        <div className="text-center sm:w-full md:text-left md:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-8 lg:pt-20">
+          <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold leading-none xl:mr-40">
             Delicious Dim Sum Feast Awaits You
           </h1>
+          <p className="text-xl lg:text-2xl mt-4 mb-2">
+            <strong className="text-primary-yellow">October 19th on Kickstarter</strong>
+          </p>
           <p className="text-xl lg:text-2xl mt-4 mb-2">
             You are invited! Become a VIP.
           </p>
@@ -170,6 +173,12 @@ const Index = () => (
         <div className="mx-auto max-w-screen-sm">
           <SubscribeBox textAlign="text-center" />
         </div>
+        <p className="text-lg mt-6">
+          <strong className="block text-primary-yellow text-2xl leading-7 mb-2">
+            Subscribe to receive a FREE Squishy Bun
+          </strong>
+          <span className="font-semibold">when you pledge Steam Up during the Kickstarter campaign.</span>
+        </p>
       </div>
     </section>
   </Layout>
