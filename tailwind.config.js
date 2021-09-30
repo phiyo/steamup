@@ -25,6 +25,9 @@ module.exports = {
       backgroundSize: {
         '150%': '150%',
         '200%': '200%'
+      },
+      width: {
+        '275': '275px'
       }
     }
   },

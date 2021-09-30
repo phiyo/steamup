@@ -49,6 +49,12 @@ const Index = () => (
         </div>
       </div>
     </section>
+    <section className="p-10 lg:pb-0 text-center lg:text-left border-b border-gray-400 lg:border-0 lg:mx-auto lg:max-w-4xl">
+      <div className="block lg:inline-block mb-5 lg:mb-0">
+        <span className="w-2/3 sm:w-275 inline-block align-middle"><KickstarterLogo /></span> <span className="font-bold inline-block mx-2 text-2xl uppercase align-middle">October 19th</span>
+      </div>
+      <a className="lg:float-right lg:-mt-1 inline-block button bg-primary-yellow hover:bg-primary-yellowdarker text-primary-black hover:text-primary-black py-2 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum" target="_blank">Notify on Launch</a>
+    </section>
     <section id="overview" className="pt-12 sm:pt-20 text-center md:text-left bg-cloud bg-no-repeat bg-cover">
       <div className="container mx-auto">
         <div className="w-3/4 max-w-xs m-auto mb-4 md:hidden">
@@ -72,13 +78,7 @@ const Index = () => (
           <img src={SpreadImage} alt="Steam Up: A Feast of Dim Sum (Delxue Edition)" />
         </div>
         <div className="md:flex md:border-t md:border-b md:border-gray-400 md:justify-center text-center">
-          <div className="border-t border-b border-gray-400 md:flex-none md:m-0 md:border-0">
-            <div className="p-5 w-3/4 max-w-xs sm:w-1/2 m-auto md:w-64 md:max-w-screen-md">
-              <KickstarterLogo />
-              <p className="font-semibold text-xl md:text-2xl">October 19th, 2021</p>
-            </div>
-          </div>
-          <div className="p-5 w-full sm:max-w-md sm:m-auto md:flex-auto md:p-0 md:m-0 md:ml-5 md:self-center">
+          <div className="p-5 w-full sm:max-w-md sm:m-auto md:flex-auto md:m-0 md:ml-5 md:self-center">
             <AwardIcons />
           </div>
         </div>
@@ -162,7 +162,7 @@ const Index = () => (
         View Details
       </a>
     </section>
-    <section id="contact" className="container mx-auto pt-48 sm:pt-56 xl:pt-64 pb-20 text-white text-center bg-mountains2 bg-no-repeat bg-200% md:bg-150% bg-top lg:bg-contain">
+    <section id="contact" className="container mx-auto pt-48 sm:pt-56 xl:pt-64 text-white text-center bg-mountains2 bg-no-repeat bg-200% md:bg-150% bg-top lg:bg-contain">
       <div className="bg-feature-img bg-cover rounded-lg m-5 px-10 py-16">
         <div className="w-3/4 max-w-md m-auto mb-4">
           <div className="pl-5">
@@ -179,6 +179,14 @@ const Index = () => (
           </strong>
           <span className="font-semibold">when you pledge Steam Up during the Kickstarter campaign.</span>
         </p>
+      </div>
+    </section>
+    <section className="p-10 text-center lg:text-left border-b border-gray-400">
+      <div className="lg:mx-auto lg:max-w-4xl">
+        <div className="block lg:inline-block mb-5 lg:mb-0">
+          <span className="w-2/3 sm:w-275 inline-block align-middle"><KickstarterLogo /></span> <span className="font-bold inline-block mx-2 text-2xl uppercase align-middle">October 19th</span>
+        </div>
+        <a className="lg:float-right lg:-mt-1 inline-block button bg-primary-yellow hover:bg-primary-yellowdarker text-primary-black hover:text-primary-black py-2 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum" target="_blank">Notify on Launch</a>
       </div>
     </section>
   </Layout>

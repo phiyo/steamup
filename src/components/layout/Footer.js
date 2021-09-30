@@ -2,7 +2,7 @@ import React from 'react';
 import LogoOutlineIcon from '../../svg/LogoOutlineIcon';
 
 const Footer = () => (
-  <footer className="container mx-auto pb-20 px-3 text-gray-800 text-center md:text-left md:max-w-screen-md">
+  <footer className="container mx-auto py-20 px-3 text-gray-800 text-center md:text-left md:max-w-screen-md">
     <div className="md:flex md:-mx-3">
       <div className="mb-10 md:flex md:flex-auto px-3">
         <div className="w-40 lg:w-64 mx-auto md:-mt-4 lg:-mt-6">
