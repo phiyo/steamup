@@ -10,7 +10,7 @@ const Footer = () => (
         </div>
         <div className="mb-10 md:flex-auto px-3">
           <h2 className="text-lg font-semibold">About Us</h2>
-          <p className="mt-5 mb-10">Canadian Indie board game designers & publisher. Developing Asian theme board games by Asians.</p>
+          <p className="mt-5 mb-10">Canadian Indie board game designers & publisher. Bringing authentic Asian themed board games to all tables.</p>
         </div>
       </div>
       <div className="md:flex-1 px-3">
