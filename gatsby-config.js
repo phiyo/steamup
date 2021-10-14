@@ -43,5 +43,6 @@ module.exports = {
         enableWebVitalsTracking: true,
       },
     },
+    "gatsby-plugin-meta-redirect",
   ],
 }
