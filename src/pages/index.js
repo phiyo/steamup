@@ -24,24 +24,26 @@ const Index = () => (
       <title>Steam Up: A Feast of Dim Sum</title>
       <meta name="description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
       <meta property="og:url" content="https://hotbananagame.com" />
-      <meta property="og:title" content="Steam Up: A Feast of Dim Sum - Kickstarter October 19th, 2021" />
+      <meta property="og:title" content="Steam Up: A Feast of Dim Sum - Now Live on Kickstarter" />
       <meta property="og:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
-      <meta name="twitter:title" content="Steam Up: A Feast of Dim Sum - Kickstarter October 19th, 2021 " />
+      <meta name="twitter:title" content="Steam Up: A Feast of Dim Sum - Now Live on Kickstarter" />
       <meta name="twitter:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
     </Helmet>
     <section id="top" className="py-20 bg-feature-img bg-cover bg-no-repeat bg-center text-white">
       <div className="container mx-auto px-8 md:flex">
         <div className="m-auto w-full sm:w-5/6 md:w-1/2 pl-10 sm:pl-0 md:pr-5">
-          <img className="hidden" src={OGImage} alt="Steam Up - Kickstarter Oct 19, 2021" />
-          <img src={FeatureImage} alt="Steam Up: A Feast of Dim Sum" />
+          <img className="hidden" src={OGImage} alt="Steam Up - Now Live on Kickstarter" />
+          <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><img src={FeatureImage} alt="Steam Up: A Feast of Dim Sum" /></a>
         </div>
-        <div className="text-center sm:w-full md:text-left md:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-8 lg:pt-20">
-          <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold leading-none xl:mr-40">
-            Delicious Dim Sum Feast Awaits You
+        <div className="text-center sm:w-full md:text-left md:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-8 xl:pt-20">
+          <h1 className="text-3xl md:text-4xl font-bold leading-9">
+            Now Live on <span className="w-11/12 sm:w-275 xl:w-300 inline-block align-bottom"><KickstarterLogo /></span>
           </h1>
-          <p className="text-xl lg:text-2xl mt-4 mb-2">
-            <strong className="text-primary-yellow">October 19th on Kickstarter</strong>
+          <p className="text-2xl mt-4 mb-8">
+            <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank">Support Steam Up on Kickstarter</a>
           </p>
+          <div className="border-b border-gray-300 mb-8"></div>
+          <h1 className="text-3xl md:text-4xl font-bold leading-9">Delicious Dim Sum Feast Awaits You</h1>
           <p className="text-xl lg:text-2xl mt-4 mb-2">
             You are invited! Become a VIP.
           </p>
@@ -49,12 +51,14 @@ const Index = () => (
         </div>
       </div>
     </section>
+    {/*
     <section className="p-10 lg:pb-0 text-center lg:text-left border-b border-gray-400 lg:border-0 lg:mx-auto lg:max-w-4xl">
       <div className="block lg:inline-block mb-5 lg:mb-0">
         <span className="w-2/3 sm:w-275 inline-block align-middle"><KickstarterLogo /></span> <span className="font-bold inline-block mx-2 text-2xl uppercase align-middle">October 19th</span>
       </div>
-      <a className="lg:float-right lg:-mt-1 inline-block button bg-primary-yellow hover:bg-primary-yellowdarker text-primary-black hover:text-primary-black py-2 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum" target="_blank">Notify on Launch</a>
+      <a className="lg:float-right lg:-mt-1 inline-block button bg-primary-yellow hover:bg-primary-yellowdarker text-primary-black hover:text-primary-black py-2 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank">Notify on Launch</a>
     </section>
+    */}
     <section id="overview" className="pt-12 sm:pt-20 text-center md:text-left bg-cloud bg-no-repeat bg-cover">
       <div className="container mx-auto">
         <div className="w-3/4 max-w-xs m-auto mb-4 md:hidden">
@@ -166,9 +170,13 @@ const Index = () => (
       <div className="bg-feature-img bg-cover rounded-lg m-5 px-10 py-16">
         <div className="w-3/4 max-w-md m-auto mb-4">
           <div className="pl-5">
-            <SteamupWhiteLogo />
+            <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><SteamupWhiteLogo /></a>
           </div>
         </div>
+        <h2 className="text-3xl md:text-4x font-bold leading-9 pb-8">
+          <a className="text-white hover:text-white" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank">Now Live on <span className="w-11/12 sm:w-275 xl:w-300 inline-block align-bottom"><KickstarterLogo /></span></a>
+        </h2>
+        <div className="border-b border-gray-300 mb-8"></div>
         <h3 className="text-2xl font-semibold">You're invited. Become a VIP!</h3>
         <div className="mx-auto max-w-screen-sm">
           <SubscribeBox textAlign="text-center" />
@@ -177,18 +185,20 @@ const Index = () => (
           <strong className="block text-primary-yellow text-2xl leading-7 mb-2">
             Subscribe to receive a FREE Squishy Bun
           </strong>
-          <span className="font-semibold">when you pledge Steam Up during the Kickstarter campaign.</span>
+          <span className="font-semibold">when you pledge Steam Up, during the campaign, now live on Kickstarter!</span>
         </p>
       </div>
     </section>
+    {/*
     <section className="p-10 text-center lg:text-left border-b border-gray-400">
       <div className="lg:mx-auto lg:max-w-4xl">
         <div className="block lg:inline-block mb-5 lg:mb-0">
           <span className="w-2/3 sm:w-275 inline-block align-middle"><KickstarterLogo /></span> <span className="font-bold inline-block mx-2 text-2xl uppercase align-middle">October 19th</span>
         </div>
-        <a className="lg:float-right lg:-mt-1 inline-block button bg-primary-yellow hover:bg-primary-yellowdarker text-primary-black hover:text-primary-black py-2 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum" target="_blank">Notify on Launch</a>
+        <a className="lg:float-right lg:-mt-1 inline-block button bg-primary-yellow hover:bg-primary-yellowdarker text-primary-black hover:text-primary-black py-2 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank">Notify on Launch</a>
       </div>
     </section>
+    */}
   </Layout>
 );
 
