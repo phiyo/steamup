@@ -67,7 +67,7 @@ const Index = () => (
           </div>
         </div>
         <h1 className="text-2xl lg:text-3xl mt-4 mb-2 font-bold text-center">
-          Supported By 8100+ Backers, $575k Raised, 18 Stretch Goals Unlocked
+          Supported By 8250+ Backers, $580k Raised, 18 Stretch Goals Unlocked
         </h1>
         <p className="text-2xl mt-4 mb-8 text-center">
           <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank">Recap what happened on Kickstarter</a>
