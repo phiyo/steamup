@@ -5,6 +5,6 @@ exports.createPages = ({ actions }) => {
     fromPath: '/steamup/',
     isPermanent: true,
     redirectInBrowser: true,
-    toPath: 'https://www.hotbananagame.com'
+    toPath: 'https://hot-banana-games.pledgemanager.com/projects/steam-up/participate/?ref=websiteforward'
   });
 };

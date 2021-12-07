@@ -36,16 +36,17 @@ const Index = () => (
           <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><img src={FeatureImage} alt="Steam Up: A Feast of Dim Sum" /></a>
         </div>
 
-        <div className="text-center sm:w-full md:text-left md:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-16 xl:pt-20">
+        <div className="text-center sm:w-full md:text-left md:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-8 xl:pt-12">
           <h1 className="text-2xl md:text-3xl font-bold leading-9">
             Thank You For Your Support on
             <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><span className="w-11/12 mt-4 sm:w-275 xl:w-350 inline-block align-bottom"><KickstarterLogo /></span></a>
           </h1>
-          <p className="text-xl lg:text-2xl mt-8">
-            Missed the campaign? No worries.
+          <p className="text-xl lg:text-2xl my-8">
+            <strong className="block mb-5">Missed the campaign? No worries.</strong>
+            <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://hot-banana-games.pledgemanager.com/projects/steam-up/participate/?ref=website" target="_blank">Late Pledge Now</a>
           </p>
-          <p className="text-xl lg:text-2xl mt-2 mb-2">
-            <strong>Become a VIP to follow along!</strong>
+          <p className="text-xl lg:text-xl mt-2 mb-2">
+            Become a VIP to follow along with the latest news.
           </p>
           <SubscribeBox textAlign="text-center sm:text-left" />
         </div>
@@ -66,19 +67,17 @@ const Index = () => (
             <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><SteamupLogo /></a>
           </div>
         </div>
-        <h1 className="text-2xl lg:text-3xl mt-4 mb-2 font-bold text-center">
+        <h1 className="text-2xl lg:text-3xl mt-4 mb-4 font-bold text-center">
           Supported By 8260+ Backers, $580k Raised, 18 Stretch Goals Unlocked
         </h1>
-        <p className="text-2xl mt-4 mb-8 text-center">
-          <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank">Recap what happened on Kickstarter</a>
+        <p className="text-2xl mb-4 text-center">
+          <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://hot-banana-games.pledgemanager.com/projects/steam-up/participate/?ref=website" target="_blank">Late Pledge Now</a>
+        </p>
+        <p className="text-2xl mb-8 text-center">
+          <a className="inline-block px-6 cursor-pointer text-lg font-bold underline text-red-700" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank">Recap what happened on Kickstarter</a>
         </p>
       </div>
       <div className="container mx-auto">
-        <div className="w-3/4 max-w-xs m-auto mb-4 md:hidden">
-          <div className="pl-5">
-            <SteamupLogo />
-          </div>
-        </div>
         <div className="md:flex sm:mb-10">
           <div className="w-full lg:w-2/5 xl:w-1/3 m-0 pb-10 md:p-5 md:pt-5 border-b border-gray-400 md:border-b-0 md:border-r">
             <p className="m-5 md:m-0 md:pb-5 text-lg">A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience.</p>
@@ -186,11 +185,13 @@ const Index = () => (
             <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><SteamupWhiteLogo /></a>
           </div>
         </div>
-        <h2 className="text-3xl md:text-4x font-bold leading-9 pb-8">
-          <p className="text-lg">Missed the campaign?</p>
+        <h2 className="text-3xl md:text-4x leading-9 pb-6">
+          <p className="text-lg">Thank you for your support on</p>
           <a className="text-white hover:text-white" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><span className="w-11/12 sm:w-275 xl:w-300 inline-block align-bottom"><KickstarterLogo /></span></a>
         </h2>
-        <h3 className="text-xl font-semibold">No worries, become a VIP to follow along!</h3>
+        <p className="text-xl mb-4"><strong>Missed the campaign? No worries.</strong></p>
+        <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://hot-banana-games.pledgemanager.com/projects/steam-up/participate/?ref=website" target="_blank">Late Pledge Now</a>
+        <h3 className="text-lg font-semibold mt-6">and become a VIP to follow along the latest news!</h3>
         <div className="mx-auto max-w-screen-sm">
           <SubscribeBox textAlign="text-center" />
         </div>
