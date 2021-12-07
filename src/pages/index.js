@@ -32,7 +32,7 @@ const Index = () => (
     <section id="top" className="py-20 bg-feature-img bg-cover bg-no-repeat bg-center text-white">
       <div className="container mx-auto px-8 md:flex">
         <div className="m-auto w-full sm:w-5/6 md:w-1/2 pl-10 sm:pl-0 md:pr-10">
-          <img className="hidden" src={OGImage} alt="Steam Up - Now Live on Kickstarter" />
+          <img className="hidden" src={OGImage} alt="Steam Up - Late pledge available now" />
           <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><img src={FeatureImage} alt="Steam Up: A Feast of Dim Sum" /></a>
         </div>
 
