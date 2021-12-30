@@ -2,7 +2,7 @@ import React from 'react';
 
 const SubscribeBox = ({ textAlign }) => (
   <div id="mc_embed_signup">
-    <form action="https://facebook.us4.list-manage.com/subscribe/post?u=3022cc50d612eca6691bc09f3&amp;id=928ec47fcf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+    <form action="https://hotbananagame.us4.list-manage.com/subscribe?u=3022cc50d612eca6691bc09f3&id=928ec47fcf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
       <input type="email" defaultValue="" name="EMAIL" className={`email rounded-sm text-gray-900 w-full p-2 mt-2 mb-4 text-lg xl:max-w-lg ${textAlign}`} id="mce-EMAIL" placeholder="email address" required />
       {/* <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--> */}
       <div style={{position: "absolute", left: "-5000px"}}>
