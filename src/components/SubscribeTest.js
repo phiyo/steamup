@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SubscribeBox = ({ textAlign }) => (
+const SubscribeBoxTest = ({ textAlign }) => (
   <div id="mc_embed_signup">
     <form action="https://hotbananagame.us4.list-manage.com/subscribe?u=3022cc50d612eca6691bc09f3&id=928ec47fcf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
       <input type="email" defaultValue="" name="EMAIL" className={`email rounded-sm text-gray-900 w-full p-2 mt-2 mb-4 text-lg xl:max-w-lg ${textAlign}`} id="mce-EMAIL" placeholder="email address" required />
@@ -15,4 +15,4 @@ const SubscribeBox = ({ textAlign }) => (
   </div>
 );
 
-export default SubscribeBox;
+export default SubscribeBoxTest;
