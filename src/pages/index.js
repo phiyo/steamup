@@ -36,12 +36,12 @@ const Index = () => (
           <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><img src={FeatureImage} alt="Steam Up: A Feast of Dim Sum" /></a>
         </div>
 
-        <div className="text-center sm:w-full md:text-left md:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-8 xl:pt-12">
-          <h1 className="text-2xl md:text-3xl font-bold leading-9">
+        <div className="text-center sm:w-full md:text-left md:w-1/2 xl:w-2/3 pt-4 sm:pt-4 md:pt-6 xl:pt-8">
+          <h1 className="text-2xl md:text-xl lg:text-2xl font-bold leading-9">
             Thank You For Your Support on
             <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><span className="w-11/12 mt-4 sm:w-275 xl:w-350 inline-block align-bottom"><KickstarterLogo /></span></a>
           </h1>
-          <p className="text-xl lg:text-2xl my-8">
+          <p className="text-xl lg:text-2xl pt-4 pb-6 my-8 border-t border-b border-gray-600">
             <strong className="block mb-5">Missed the campaign? No worries.</strong>
             <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://hot-banana-games.pledgemanager.com/projects/steam-up/participate/?ref=website" target="_blank">Late Pledge Now</a>
           </p>

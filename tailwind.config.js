@@ -26,14 +26,34 @@ module.exports = {
         '150%': '150%',
         '200%': '200%'
       },
+      borderWidth: {
+        '20': '20px'
+      },
       width: {
+        '20': '20px',
         '275': '275px',
         '300': '300px',
         '350': '350px',
         '400': '400px'
+      },
+      height: {
+        '20': '20px'
+      },
+      inset: {
+        '1/2': '50%',
+        'full': '100%',
+        '15': '15px',
+        '25': '25px'
+      },
+      margin: {
+        'n50': '50%',
+        'n10px': '-10px'
       }
     }
   },
-  variants: {},
+  variants: {
+    visibility: ['group-focus'],
+    position: ['group-focus']
+  },
   plugins: []
 };
