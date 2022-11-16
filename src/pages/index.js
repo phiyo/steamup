@@ -94,7 +94,7 @@ const Index = () => (
           <img src={SpreadImage} alt="Steam Up: A Feast of Dim Sum (Delxue Edition)" />
         </div>
         <div className="md:flex md:border-t md:border-b md:border-gray-400 md:justify-center text-center">
-          <div className="p-5 w-full sm:max-w-md sm:m-auto md:flex-auto md:m-0 md:ml-5 md:self-center">
+          <div className="p-5 w-full sm:max-w-screen-sm sm:m-auto md:flex-auto md:m-0 md:ml-5 md:self-center">
             <AwardIcons />
           </div>
         </div>
