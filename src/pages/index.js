@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from "react-helmet"
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
+import FavIcon from '../assets/images/favicon.png';
 import OverviewIcons from '../assets/images/overview-icons.png';
 import AwardIcons from '../svg/AwardIcons';
 import OGImage from '../assets/og-image/index.jpg';
@@ -28,11 +29,12 @@ const Index = () => (
       <meta property="og:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
       <meta name="twitter:title" content="Steam Up: A Feast of Dim Sum - Now Live on Kickstarter" />
       <meta name="twitter:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
+      <link rel="icon" type="image/x-icon" href={FavIcon} />
     </Helmet>
     <section id="top" className="py-20 bg-feature-img bg-cover bg-no-repeat bg-center text-white">
       <div className="container mx-auto px-8 md:flex">
         <div className="m-auto w-full sm:w-5/6 md:w-1/2 pl-10 sm:pl-0 md:pr-10">
-          <img className="hidden" src={OGImage} alt="Steam Up - Late pledge available now" />
+          <img className="hidden" src={OGImage} alt="Steam Up" />
           <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><img src={FeatureImage} alt="Steam Up: A Feast of Dim Sum" /></a>
         </div>
 
@@ -41,9 +43,11 @@ const Index = () => (
             Thank You For Your Support on
             <a href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><span className="w-11/12 mt-4 sm:w-275 xl:w-350 inline-block align-bottom"><KickstarterLogo /></span></a>
           </h1>
-          <p className="text-xl lg:text-2xl pt-4 pb-6 my-8 border-t border-b border-gray-600">
-            <strong className="block mb-5">Missed the campaign? No worries.</strong>
+          <p className="text-xl lg:text-2xl pt-4 mt-8 border-t border-gray-600">
+            <strong className="block">Missed the campaign? No worries.</strong>
+            {/*
             <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://hot-banana-games.pledgemanager.com/projects/steam-up/participate/?ref=website" target="_blank">Late Pledge Now</a>
+            */}
           </p>
           <p className="text-xl lg:text-xl mt-2 mb-2">
             Become a VIP to follow along with the latest news.
@@ -70,9 +74,11 @@ const Index = () => (
         <h1 className="text-2xl lg:text-3xl mt-4 mb-4 font-bold text-center">
           Supported By 8260+ Backers, $580k Raised, 18 Stretch Goals Unlocked
         </h1>
+        {/*
         <p className="text-2xl mb-4 text-center">
           <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://hot-banana-games.pledgemanager.com/projects/steam-up/participate/?ref=website" target="_blank">Late Pledge Now</a>
         </p>
+        */}
         <p className="text-2xl mb-8 text-center">
           <a className="inline-block px-6 cursor-pointer text-lg font-bold underline text-red-700" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank">Recap what happened on Kickstarter</a>
         </p>
@@ -190,8 +196,10 @@ const Index = () => (
           <a className="text-white hover:text-white" href="https://www.kickstarter.com/projects/steam-up/steam-up-a-feast-of-dim-sum?ref=bp0vx1" target="_blank"><span className="w-11/12 sm:w-275 xl:w-300 inline-block align-bottom"><KickstarterLogo /></span></a>
         </h2>
         <p className="text-xl mb-4"><strong>Missed the campaign? No worries.</strong></p>
+        {/*
         <a className="inline-block button bg-primary-yellow hover:bg-primary-yellowdarker hover:text-primary-black py-4 px-6 cursor-pointer uppercase text-lg font-bold rounded" href="https://hot-banana-games.pledgemanager.com/projects/steam-up/participate/?ref=website" target="_blank">Late Pledge Now</a>
-        <h3 className="text-lg font-semibold mt-6">and become a VIP to follow along the latest news!</h3>
+        */}
+        <h3 className="text-lg font-semibold mt-6">Become a VIP to follow along the latest news!</h3>
         <div className="mx-auto max-w-screen-sm">
           <SubscribeBox textAlign="text-center" />
         </div>
