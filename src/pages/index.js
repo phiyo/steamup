@@ -2,7 +2,6 @@ import React from 'react';
 import { Helmet } from "react-helmet"
 import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
-import FavIcon from '../assets/images/favicon.png';
 import OverviewIcons from '../assets/images/overview-icons.png';
 import AwardIcons from '../svg/AwardIcons';
 import OGImage from '../assets/og-image/index.jpg';
@@ -29,7 +28,6 @@ const Index = () => (
       <meta property="og:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
       <meta name="twitter:title" content="Steam Up: A Feast of Dim Sum - Now Live on Kickstarter" />
       <meta name="twitter:description" content="A competitive medium-light weight Dim Sum collection tabletop game offering an authentic cultural experience." />
-      <link rel="icon" type="image/x-icon" href={FavIcon} />
     </Helmet>
     <section id="top" className="py-20 bg-feature-img bg-cover bg-no-repeat bg-center text-white">
       <div className="container mx-auto px-8 md:flex">
